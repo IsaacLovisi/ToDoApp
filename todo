@@ -1,0 +1,45 @@
+Funcionalidades Requeridas:
+
+Adicionar Nova Tarefa:
+
+O usuário deve poder inserir a descrição da tarefa (texto).
+O usuário deve poder definir uma prioridade para a tarefa (por exemplo, um número de 1 a 5, onde 1 é a mais alta).
+A tarefa deve receber um ID único automaticamente (pode ser sequencial).
+A tarefa deve ter um status inicial de "Pendente".
+Listar Tarefas:
+
+O usuário deve poder visualizar todas as tarefas.
+A listagem deve mostrar: ID, Descrição, Prioridade e Status.
+Deve haver uma opção para listar tarefas ordenadas por prioridade (da mais alta para a mais baixa).
+Marcar Tarefa como Concluída:
+
+O usuário deve poder informar o ID de uma tarefa para marcá-la como "Concluída".
+Remover Tarefa:
+
+O usuário deve poder informar o ID de uma tarefa para removê-la da lista.
+Salvar e Carregar Tarefas (Persistência):
+
+As tarefas devem ser salvas em um arquivo (formato à sua escolha, como JSON, CSV ou TXT simples) para que não se percam ao fechar o programa.
+Ao iniciar, o programa deve carregar as tarefas salvas anteriormente, se existirem.
+Requisitos Técnicos (Sugestões, não obrigatórias, mas que ajudam na análise):
+
+Linguagem de Programação: Escolha a linguagem que você se sente mais confortável ou aquela que você deseja que eu avalie.
+Estrutura de Dados: Pense em qual estrutura de dados seria mais adequada para armazenar as tarefas (lista, dicionário, lista de objetos, etc.).
+Modularização: Divida seu código em funções ou classes para melhor organização.
+Tratamento de Erros: Considere o que acontece se o usuário inserir dados inválidos (ex: um ID que não existe, uma prioridade fora do intervalo).
+O que vou analisar no seu código:
+
+Lógica e Resolução do Problema: Se todas as funcionalidades foram implementadas corretamente.
+Estrutura do Código: Organização, clareza, uso de funções/classes, nomes de variáveis e funções.
+Escolha de Estruturas de Dados: Se as estruturas escolhidas são eficientes e apropriadas para o problema.
+Legibilidade: Se o código é fácil de entender.
+Comentários: Uso de comentários para explicar partes complexas ou decisões de design (se necessário).
+Tratamento de Erros e Casos de Borda: Como o programa lida com entradas inesperadas ou situações limite.
+Eficiência (em menor grau para este exercício): Se há alguma otimização óbvia que poderia ser feita, embora o foco principal não seja micro-otimizações.
+Boas Práticas de Programação: Uso de convenções da linguagem, princípios como DRY (Don't Repeat Yourself), etc.
+Persistência de Dados: Implementação correta do salvamento e carregamento.
+Como me enviar:
+
+Quando terminar, você pode me enviar o código-fonte (copiar e colar ou, se for muito grande, indicar um link para um repositório como GitHub/GitLab, ou um serviço de pastebin).
+
+Estou ansioso para ver sua solução! Não hesite em perguntar se tiver alguma dúvida sobre o enunciado. Boa codificação! 👍

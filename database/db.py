@@ -11,7 +11,12 @@ def criar_tabela():
 
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS tarefas(
-        id INTEGER PRIMARY KEY AUTOINCREMENTE,
-        tarefa TEXTO NOT NULL,
-        tarefa_concluida BOOLEAN DEFAULT 0
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        nome TEXTO NOT NULL,
+        status BOOLEAN DEFAULT 0,
+        descricao TEXT NOT NULL, 
+        prioridade INT NOT NULL
     )""")
+
+
+criar_tabela()
